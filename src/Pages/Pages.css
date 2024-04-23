@@ -1,0 +1,22 @@
+Form{
+
+    font-size: 1.5pc;
+
+}
+
+.containertxt{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cardtext{
+
+    font-size: 1pc;
+    width: 60%;
+
+
+}
