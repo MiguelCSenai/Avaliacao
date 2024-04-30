@@ -1,5 +1,11 @@
-.bg-body-tertiary{
+.bg-body-primary{
 
-    background-color: #ff0000;
+    border-bottom: 1px solid black;
+    background: rgb(179, 179, 179);
+
+}
+.Navbar{
+
+    border-bottom: 3px solid black;
 
 }

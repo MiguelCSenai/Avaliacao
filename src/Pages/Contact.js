@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function App() {
+function Contact() {
   return (
     <div className="App">
         <header className="App-header">
@@ -25,13 +25,13 @@ function App() {
                     </Form.Group>
                     </Col>
                 </Row>
-                <Form.Group className="mb-2" controlId="formGroupEmail">
+                <Form.Group className="mb-2 w-75" controlId="formGroupEmail">
                     <Form.Label>Assunto</Form.Label>
                     <Form.Control type="name"/>
                 </Form.Group>
-                <Form.Group className="mb-2" controlId="formGroupPassword">
+                <Form.Group className="mb-2 w-100" controlId="formGroupPassword">
                     <Form.Label>Mensagem</Form.Label>
-                    <Form.Control className='h-25' type="text" />
+                    <Form.Control type="textarea" />
                 </Form.Group>
                 <Button variant="dark" className='w-75 mt-5' type="submit">
                     Enviar
@@ -44,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contact;

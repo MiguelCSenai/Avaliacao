@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
+import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import reportWebVitals from './reportWebVitals';
@@ -11,11 +11,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Login from './Pages/Login';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:  <App/>,
+    element:  <Home/>,
   },
   {
 
@@ -27,6 +28,12 @@ const router = createBrowserRouter([
 
     path: "/Sobre-nos",
     element: <About/>,
+
+  },
+  {
+
+    path: "/login",
+    element: <Login/>
 
   },
 ]);
